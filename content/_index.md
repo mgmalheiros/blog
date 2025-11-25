@@ -4,3 +4,7 @@ template = "index.html"
 +++
 
 Home page
+
+- one
+- two
+- three

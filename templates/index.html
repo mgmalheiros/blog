@@ -3,9 +3,9 @@
 {% block content %}
 
 <h1 class="title">
-    {{ section.title | default(value="none") }}
+    {{ section.title }}
 </h1>
 
-{{ section.content | default(value="none") | safe }}
+{{ section.content | safe }}
 
 {% endblock content %}
