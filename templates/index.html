@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="title">
+    {{ section.title | default(value="none") }}
+</h1>
+
+{{ section.content | default(value="none") | safe }}
+
+{% endblock content %}
