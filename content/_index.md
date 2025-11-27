@@ -3,7 +3,11 @@ title = "Main"
 template = "index.html"
 +++
 
-Home page
+MAIN PAGE
+
+```py
+a = 8
+```
 
 - one
 - two
